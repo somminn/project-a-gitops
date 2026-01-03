@@ -1,12 +1,9 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
-
 namespace: project-a
-
 resources:
   - deployment.yml
   - service.yml
-
 images:
   - name: cowmin/project-a-frontend
-    newTag: "0.1"
+    newTag: "d75a89f3248b893108442b6289f20194693eb355"
