@@ -6,4 +6,4 @@ resources:
   - service.yml
 images:
   - name: cowmin/project-a-frontend
-    newTag: "8789936dd5798eb30af3a58e50af1ab4cbfb479e"
+    newTag: "e8834f78d1291c0d3710346eafa337886e329264"
