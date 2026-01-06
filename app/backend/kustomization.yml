@@ -7,4 +7,4 @@ resources:
   - service-canary.yml
 images:
   - name: cowmin/project-a-backend
-    newTag: "54282ade7e1dffba44828c4f08ba307af7d2570c"
+    newTag: "b7d44caf90a3708de3e3ad57a162238d6e672a80"
