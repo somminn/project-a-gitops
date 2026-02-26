@@ -2,9 +2,9 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 namespace: project-a
 resources:
-  - rollout.yml
-  - service-stable.yml
-  - service-canary.yml
+  - rollout-bluegreen.yml
+  - service-active.yml
+  - service-preview.yml
 images:
   - name: cowmin/project-a-backend
-    newTag: "39088b8bc7dd0a7181152e34f4776fe7cb8be351"
+    newTag: "400eb843c87f31386a68a3202619a3de9adb7660"
