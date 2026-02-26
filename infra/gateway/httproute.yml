@@ -8,16 +8,16 @@ spec:
     - name: project-a-gateway
   rules:
     - matches:
-      - path:
-          type: PathPrefix
-          value: /api
-        headers:
-          - name: x-canary
-            value: "true"
+        - path:
+            type: PathPrefix
+            value: /api
+          headers:
+            - name: x-canary
+              value: "true"
       backendRefs:
-        - name: project-a-backend-canary
+        - name: project-a-backend-preview
           port: 8080
-    
+
     - matches:
         - path:
             type: PathPrefix
