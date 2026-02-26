@@ -10,6 +10,14 @@ spec:
     - matches:
         - path:
             type: PathPrefix
+            value: /actuator
+      backendRefs:
+        - name: project-a-backend
+          port: 8080
+
+    - matches:
+        - path:
+            type: PathPrefix
             value: /api
           headers:
             - name: x-canary
