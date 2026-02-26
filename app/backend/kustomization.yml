@@ -7,4 +7,4 @@ resources:
   - service-preview.yml
 images:
   - name: cowmin/project-a-backend
-    newTag: "400eb843c87f31386a68a3202619a3de9adb7660"
+    newTag: "65e33672734486f635213407f827f9fb957afc80"
